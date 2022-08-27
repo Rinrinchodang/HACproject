@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding:0;
+    background: rgb(6,128,185);
+}
+.sticky-note one{
+    position: absolute;
+    background: pink;
+    width: 300px;
+    height: 50px;
+    top: 20%;
+    left: 40%;
+}
+.area{
+    position:absolute;
+    top: 100%;
+    left: 0%;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    outline: orange;
+    border:blue;
+}
+textarea{
+    position: relative;
+    min-width: 300px;
+    height: 200px;
+    background: purple;
+    color: black;
+    font-size: 20px;
+    outline: purple;
+    letter-spacing: 1px;
+}
+i{
+    position: absolute;
+    top: 24%;
+    left: 88%;
+    font-size: 25px;
+    color: green;
+    transform: rotate(270); 
+}
